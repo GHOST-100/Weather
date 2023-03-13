@@ -74,7 +74,7 @@ const api = {
             {typeof weather.main !== "undefined" ? (
               <div className="result">
               <br/>
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-weather/ilu1.webp"
+              <img alt="kochu" src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-weather/ilu1.webp"
                   width="80px" align='center'/>
                   <br/>
                 <p  className='result-1'>{weather.name}</p>
